@@ -2227,7 +2227,7 @@ input, select, textarea {
 
 			#header h1 #logo img {
 				display: block;
-				width: 420px;
+				width: 500px;
 				max-width: 80vw;
 				height: auto;
 				margin: 0 auto;
@@ -3098,7 +3098,7 @@ input, select, textarea {
 				}
 
 				body.homepage #header h1 #logo img {
-					width: 300px;
+					width: 340px;
 					max-width: 75vw;
 				}
 
