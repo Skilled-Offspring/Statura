@@ -114,13 +114,6 @@ input, select, textarea {
 		color: #483949;
 		line-height: 1.25em;
 	}
-	#header .inner header h1{
-		margin-bottom: 10px;
-	}
-			#header {
-    background: black;
-}
-	
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 		color: inherit;
@@ -3141,27 +3134,5 @@ input, select, textarea {
 					.carousel article .image {
 						margin-bottom: 2em;
 					}
+
 	}
-	/* === Statura Logo === */
-#header #logo img {
-    width: 420px;
-    max-width: 85vw;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-
-#header .inner {
-    width: 100%;
-}
-
-body.homepage #header .inner {
-    transform: translateY(-4.5em);
-}
-
-@media screen and (max-width: 736px) {
-
-    body.homepage #header .inner {
-        transform: translateY(-1.5em);
-    }
-}
