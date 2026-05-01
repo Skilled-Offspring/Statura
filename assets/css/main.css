@@ -3141,4 +3141,15 @@ input, select, textarea {
 						margin-bottom: 2em;
 					}
 	}
-	
+	/* === Statura Logo === */
+#header #logo img {
+    width: 420px;
+    max-width: 85vw;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#header .inner {
+    width: 100%;
+}
