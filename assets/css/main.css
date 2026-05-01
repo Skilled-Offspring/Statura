@@ -114,7 +114,8 @@ input, select, textarea {
 		color: #483949;
 		line-height: 1.25em;
 			#logo img {
- 		    width: 320px;       /* adjust this */
+ 		    width: 500px;       /* adjust this */
+			max-width: 90%;   /* adjust this */
     		height: auto;
     		display: block;
     		margin: 0 auto;     /* centers it */
