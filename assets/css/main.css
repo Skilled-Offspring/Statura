@@ -113,11 +113,14 @@ input, select, textarea {
 		font-weight: 400;
 		color: #483949;
 		line-height: 1.25em;
-		#logo img {
- 		   width: 320px;       /* adjust this */
+			#logo img {
+ 		    width: 320px;       /* adjust this */
     		height: auto;
-    	display: block;
-    	margin: 0 auto;     /* centers it */
+    		display: block;
+    		margin: 0 auto;     /* centers it */
+			}
+			#header .inner header h1 {
+	    	margin-bottom: 10px;
 			}
 	}
 
