@@ -113,13 +113,14 @@ input, select, textarea {
 		font-weight: 400;
 		color: #483949;
 		line-height: 1.25em;
-			#header .inner header h1 {
-	    	margin-bottom: 10px;
-			}
+	}
+	#header .inner header h1{
+		margin-bottom: 10px;
+	}
 			#header {
     background: black;
 }
-	}
+	
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 		color: inherit;
@@ -3152,4 +3153,15 @@ input, select, textarea {
 
 #header .inner {
     width: 100%;
+}
+
+body.homepage #header .inner {
+    transform: translateY(-4.5em);
+}
+
+@media screen and (max-width: 736px) {
+
+    body.homepage #header .inner {
+        transform: translateY(-1.5em);
+    }
 }
