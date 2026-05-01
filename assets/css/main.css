@@ -2328,21 +2328,21 @@ input, select, textarea {
 			#nav > ul:before {
 				left: 100%;
 				margin-left: 12px;
-				width: 16em;
-				height: 3.5em;
-				margin-top: -1.75em;
+				width: 18em;
+				height: 4.5em;
+				margin-top: -2.25em;
 				background: url("../../images/menu-right.png") no-repeat left center;
-				background-size: contain;
+				background-size: auto 100%;
 			}
 
 			#nav > ul:after {
 				right: 100%;
 				margin-right: 12px;
-				width: 16em;
-				height: 3.5em;
-				margin-top: -1.75em;
+				width: 18em;
+				height: 4.5em;
+				margin-top: -2.25em;
 				background: url("../../images/menu-left.png") no-repeat right center;
-				background-size: contain;
+				background-size: auto 100%;
 			}
 
 			#nav > ul > li {
