@@ -2330,9 +2330,9 @@ input, select, textarea {
 				margin-left: 12px;
 				width: 18em;
 				height: 4.5em;
-				margin-top: -2.25em;
+				margin-top: -2em;
 				background: url("../../images/menu-right.png") no-repeat left center;
-				background-size: auto 220%;
+				background-size: auto 260%;
 			}
 
 			#nav > ul:after {
@@ -2340,9 +2340,9 @@ input, select, textarea {
 				margin-right: 12px;
 				width: 18em;
 				height: 4.5em;
-				margin-top: -2.25em;
+				margin-top: -2em;
 				background: url("../../images/menu-left.png") no-repeat right center;
-				background-size: auto 220%;
+				background-size: auto 260%;
 			}
 
 			#nav > ul > li {
