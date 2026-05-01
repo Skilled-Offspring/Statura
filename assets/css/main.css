@@ -3154,3 +3154,15 @@ input, select, textarea {
 					}
 
 	}
+/* === Left ornament in menu === */
+#nav ul li.menu-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#nav ul li.menu-left img {
+    height: 40px;      /* adjust this */
+    width: auto;
+    display: block;
+}
