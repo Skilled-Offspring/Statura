@@ -3152,7 +3152,7 @@ input, select, textarea {
 /* === Statura Logo === */
 #logo img {
     width: 1000px;
-    max-width: 90%;
+    max-width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
