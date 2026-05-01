@@ -3141,25 +3141,4 @@ input, select, textarea {
 						margin-bottom: 2em;
 					}
 	}
-
-
-					.carousel article .image {
-						margin-bottom: 2em;
-					}
-/* === Statura Logo === */
-#logo img {
-    width: 500px;
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    filter: drop-shadow(0 0 20px rgba(0,0,0,0.5));
-}
-
-#header .inner header h1 {
-    margin-bottom: 10px;
-}
-#header .inner {
-    display: block !important;
-    width: 100% !important;
-}
+	
