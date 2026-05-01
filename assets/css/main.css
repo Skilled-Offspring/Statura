@@ -113,13 +113,6 @@ input, select, textarea {
 		font-weight: 400;
 		color: #483949;
 		line-height: 1.25em;
-			#logo img {
- 		    width: 500px;       /* adjust this */
-			max-width: 90%;   /* adjust this */
-    		height: auto;
-    		display: block;
-    		margin: 0 auto;     /* centers it */
-			}
 			#header .inner header h1 {
 	    	margin-bottom: 10px;
 			}
@@ -3147,5 +3140,25 @@ input, select, textarea {
 					.carousel article .image {
 						margin-bottom: 2em;
 					}
-
 	}
+						width: 14em;
+					padding-bottom: 2em;
+					margin: 0 0.5em 0 0;
+				}
+
+					.carousel article .image {
+						margin-bottom: 2em;
+					}
+/* === Statura Logo === */
+#logo img {
+    width: 500px;
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    filter: drop-shadow(0 0 20px rgba(0,0,0,0.5));
+}
+
+#header .inner header h1 {
+    margin-bottom: 10px;
+}
