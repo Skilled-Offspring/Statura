@@ -3162,3 +3162,7 @@ input, select, textarea {
 #header .inner header h1 {
     margin-bottom: 10px;
 }
+#header .inner {
+    display: block !important;
+    width: 100% !important;
+}
