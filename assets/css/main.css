@@ -2328,9 +2328,9 @@ input, select, textarea {
 			#nav > ul:before {
 				left: 100%;
 				margin-left: 12px;
-				width: 10.5em;
-				height: 2.1em;
-				margin-top: -1.05em;
+				width: 16em;
+				height: 3.5em;
+				margin-top: -1.75em;
 				background: url("../../images/menu-right.png") no-repeat left center;
 				background-size: contain;
 			}
@@ -2338,9 +2338,9 @@ input, select, textarea {
 			#nav > ul:after {
 				right: 100%;
 				margin-right: 12px;
-				width: 10.5em;
-				height: 2.1em;
-				margin-top: -1.05em;
+				width: 16em;
+				height: 3.5em;
+				margin-top: -1.75em;
 				background: url("../../images/menu-left.png") no-repeat right center;
 				background-size: contain;
 			}
