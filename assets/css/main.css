@@ -2331,7 +2331,9 @@ input, select, textarea {
 				width: 18em;
 				height: 4.5em;
 				margin-top: -1em;
-				background: url("../../images/menu-right.png") no-repeat left top 0.35em;
+				background-image: url("../../images/menu-right.png");
+				background-repeat: no-repeat;
+				background-position: left 0 top 0.35em;
 				background-size: auto 300%;
 			}
 
@@ -2341,7 +2343,9 @@ input, select, textarea {
 				width: 18em;
 				height: 4.5em;
 				margin-top: -1em;
-				background: url("../../images/menu-left.png") no-repeat right top 0.35em;
+				background-image: url("../../images/menu-left.png");
+				background-repeat: no-repeat;
+				background-position: right 0 top 0.35em;
 				background-size: auto 300%;
 			}
 
