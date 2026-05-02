@@ -2401,11 +2401,7 @@ input, select, textarea {
     				display: flex;
     				align-items: center;
     				justify-content: center;
-				}
-
-				.menu-deco {
-			    	height: 40px;
-				}
+			}
 
 	.dropotron {
 		background: rgba(255, 255, 255, 0.975);
