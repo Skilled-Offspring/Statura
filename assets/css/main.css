@@ -2305,6 +2305,13 @@ input, select, textarea {
 		overflow: hidden;
 	}
 
+		#nav {
+    	display: flex;
+    	align-items: center;
+    	justify-content: center;
+    	gap: 20px;
+		}
+
 		#nav > ul {
 			line-height: 0px;
 			position: relative;
@@ -2388,6 +2395,16 @@ input, select, textarea {
 
 				#nav > ul > li > a:hover {
     				color: #ffd900e3;
+				}
+
+				.nav-wrapper {
+    				display: flex;
+    				align-items: center;
+    				justify-content: center;
+				}
+
+				.menu-deco {
+			    	height: 40px;
 				}
 
 	.dropotron {
