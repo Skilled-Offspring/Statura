@@ -2378,6 +2378,17 @@ input, select, textarea {
 				    letter-spacing: 0.05em;
 		}
 
+				#nav {
+				    display: flex;
+				    align-items: center;
+				    justify-content: center;
+				    gap: 20px;
+				}
+
+				#nav > ul > li > a:hover {
+    				color: #ffd700;
+				}
+
 	.dropotron {
 		background: rgba(255, 255, 255, 0.975);
 		padding: 1em 1.25em 1em 1.25em;
