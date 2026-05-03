@@ -3213,3 +3213,9 @@ input, select, textarea {
 		.badge-button img:active {
     		transform: scale(0.95);
 	}	
+
+	.hero-sub {
+    margin-top: 20px;
+    font-size: 1.2em;
+    opacity: 0.8;
+}
