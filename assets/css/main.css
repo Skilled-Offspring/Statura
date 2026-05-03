@@ -2055,9 +2055,10 @@ input, select, textarea {
 	.button {
 		position: relative;
 		display: inline-block;
-		background: #df7366;
+		background: #006efd;
 		color: #fff;
 		text-align: center;
+		text-transform: uppercase;
 		border-radius: 0.5em;
 		text-decoration: none;
 		padding: 0.65em 3em 0.65em 3em;
