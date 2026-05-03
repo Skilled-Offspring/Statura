@@ -3250,3 +3250,29 @@ input, select, textarea {
 			    transform: translateY(3px);
 			    box-shadow: 0 2px 0 #c89b00;
 			}
+
+			/* === Center text === */
+			.center {
+			    text-align: center;
+			}
+
+			/* === Benefits layout === */
+			.benefits {
+    			display: flex;
+    			justify-content: center;
+    			gap: 40px;
+    			margin-top: 40px;
+    			flex-wrap: wrap;
+			}
+
+			/* === Each card === */
+			.benefit {
+			    text-align: center;
+			    max-width: 250px;
+			}
+
+			/* === Icons === */
+			.benefit .icon {
+			    font-size: 40px;
+			    margin-bottom: 10px;
+			}
