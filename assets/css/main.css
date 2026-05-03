@@ -3213,3 +3213,11 @@ input, select, textarea {
 		.badge-button img:active {
     		transform: scale(0.95);
 	}	
+
+		#banner header {
+    		margin-bottom: 10px;
+		}
+
+		.badge-button {
+    		margin-top: 20px;
+		}
