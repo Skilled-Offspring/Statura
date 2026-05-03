@@ -3201,17 +3201,17 @@ input, select, textarea {
     		display: block;
     		margin: 0 auto;
     		cursor: pointer;
-    		transition: transform 0.2s ease, filter 0.2s ease;
+    		transition: transform 0.15s ease, filter 0.15s ease;
 		}
 
 		/* Hover effect (makes it feel clickable) */
 		.badge-button img:hover {
-    		transform: scale(1.08);
-    		filter: brightness(1.1);
+    		transform: scale(1.12);
+    		filter: brightness(1.2) drop-shadow(0 0 10px rgba(255, 215, 0, 0.6));
 		}
 
 		.badge-button img:active {
-    		transform: scale(0.95);
+    		transform: scale(0.92);
 	}	
 
 		#banner header {
