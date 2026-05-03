@@ -3193,3 +3193,23 @@ input, select, textarea {
 					}
 
 	}
+
+		/* === Badge Button === */
+		.badge-button img {
+		    width: 160px;   /* adjust size here */
+		    height: auto;
+    		display: block;
+    		margin: 0 auto;
+    		cursor: pointer;
+    		transition: transform 0.2s ease, filter 0.2s ease;
+		}
+
+		/* Hover effect (makes it feel clickable) */
+		.badge-button img:hover {
+    		transform: scale(1.08);
+    		filter: brightness(1.1);
+		}
+
+		.badge-button img:active {
+    		transform: scale(0.95);
+	}	
