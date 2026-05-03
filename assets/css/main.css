@@ -3221,3 +3221,32 @@ input, select, textarea {
 		.badge-button {
     		margin-top: 20px;
 		}
+
+		/* === CTA Button (Game Style) === */
+			.cta-button {
+			    display: inline-block;
+			    margin-top: 25px;
+    			padding: 14px 32px;
+    			font-size: 1.1em;
+    			font-weight: 700;
+    			text-transform: uppercase;
+    			letter-spacing: 0.08em;
+    			color: #fff;
+    			background: linear-gradient(135deg, #ffd700, #ffb300);
+    			border-radius: 999px;
+    			text-decoration: none;
+    			box-shadow: 0 6px 0 #c89b00;
+    			transition: all 0.15s ease;
+			}
+
+		/* Hover */
+			.cta-button:hover {
+			    transform: translateY(-2px) scale(1.05);
+			    box-shadow: 0 8px 0 #c89b00, 0 0 15px rgba(255, 215, 0, 0.6);
+			}
+
+		/* Click */
+			.cta-button:active {
+			    transform: translateY(3px);
+			    box-shadow: 0 2px 0 #c89b00;
+			}
