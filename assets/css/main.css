@@ -3196,7 +3196,7 @@ input, select, textarea {
 
 		/* === Badge Button === */
 		.badge-button img {
-		    width: 220px;   /* adjust size here */
+		    width: 440px;   /* adjust size here */
 		    height: auto;
     		display: block;
     		margin: 0 auto;
