@@ -3025,7 +3025,7 @@ input, select, textarea {
 					z-index: 1;
 					display: block;
 					text-decoration: none;
-					padding: 0.5em;
+					padding: 0.35em 0.5em;
 					color: #ddd;
 					border: 0;
 					border-top: dotted 1px rgba(255, 255, 255, 0.05);
