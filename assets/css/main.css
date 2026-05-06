@@ -2998,7 +2998,7 @@ input, select, textarea {
 				display: block;
 				height: 35vh;
 				left: 0;
-				overflow-y: auto;
+				overflow-y: hidden;
 				position: fixed;
 				top: 0;
 				width: 100%;
