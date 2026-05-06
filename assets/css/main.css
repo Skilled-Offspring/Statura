@@ -2996,7 +2996,7 @@ input, select, textarea {
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
 				display: block;
-				height: 50vh;
+				height: 35vh;
 				left: 0;
 				overflow-y: auto;
 				position: fixed;
