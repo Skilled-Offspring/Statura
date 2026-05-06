@@ -2340,7 +2340,7 @@ input, select, textarea {
 				height: 4.5em;
 				margin-top: -1em;
 				background: url("../../images/menu-right.png") no-repeat left center;
-				background-size: auto 200%;
+				background-size: contain;
 			}
 
 			#nav > ul:after {
