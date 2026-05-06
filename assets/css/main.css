@@ -2338,7 +2338,7 @@ input, select, textarea {
 				margin-left: 12px;
 				width: 22em;
 				height: 4.5em;
-				margin-top: -0.85em;
+				margin-top: -1em;
 				background: url("../../images/menu-right.png") no-repeat left center;
 				background-size: auto 200%;
 			}
