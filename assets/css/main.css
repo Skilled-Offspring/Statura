@@ -3070,17 +3070,17 @@ input, select, textarea {
 				}
 
 			body.navPanel-visible #page-wrapper {
-				-moz-transform: translateY(200px);
-				-webkit-transform: translateY(200px);
-				-ms-transform: translateY(200px);
-				transform: translateY(200px);
+				-moz-transform: translateY(190px);
+				-webkit-transform: translateY(190px);
+				-ms-transform: translateY(190px);
+				transform: translateY(190px);
 			}
 
 			body.navPanel-visible #navButton {
-				-moz-transform: translateY(200px);
-				-webkit-transform: translateY(200px);
-				-ms-transform: translateY(200px);
-				transform: translateY(200px);
+				-moz-transform: translateY(190px);
+				-webkit-transform: translateY(190px);
+				-ms-transform: translateY(190px);
+				transform: translateY(190px);
 			}
 
 			body.navPanel-visible #navPanel {
