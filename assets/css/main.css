@@ -2675,6 +2675,10 @@ input, select, textarea {
 				flex-grow: 1;
 			}
 
+			.carousel article .cta-button {
+				margin-top: auto;
+			}
+
 /* Wide */
 
 	@media screen and (max-width: 1680px) {
