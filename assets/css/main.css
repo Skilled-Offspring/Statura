@@ -2293,6 +2293,13 @@ input, select, textarea {
 		opacity: 1;
 	}
 
+	.hero-sub {
+    font-weight: 700;
+    color: #ffffff;
+	letter-spacing: 0.03em;
+	text-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
 /* Nav */
 
 	#nav {
