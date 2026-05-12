@@ -2640,9 +2640,10 @@ input, select, textarea {
 		}
 
 		.carousel article {
-			display: flex;
+			display: inline-flex;
 			flex-direction: column;
-			height: 100%;
+			vertical-align: top;
+			min-height: 32em;
 			width: 18em;
 			background: #fff;
 			text-align: center;
