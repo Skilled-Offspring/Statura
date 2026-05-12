@@ -2187,6 +2187,11 @@ input, select, textarea {
 		cursor: default;
 	}
 
+		body.homepage #header {
+    	height: 75vh;
+    	min-height: 32em;
+	}
+
 		#header:before {
 			content: '';
 			display: inline-block;
@@ -2204,11 +2209,6 @@ input, select, textarea {
 
 		#header header {
 			display: inline-block;
-		}
-
-		body.homepage #header {
-    		height: 75vh;
-    		min-height: 32em;
 		}
 
 			#header header > p {
