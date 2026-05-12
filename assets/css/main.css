@@ -2188,8 +2188,8 @@ input, select, textarea {
 	}
 
 		body.homepage #header {
-    	height: 75vh;
-    	min-height: 32em;
+    	height: 70vh;
+    	min-height: 30em;
 	}
 
 		#header:before {
