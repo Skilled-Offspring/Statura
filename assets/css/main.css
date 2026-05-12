@@ -2643,7 +2643,7 @@ input, select, textarea {
 			display: inline-flex;
 			flex-direction: column;
 			vertical-align: top;
-			min-height: 32em;
+			min-height: 34em;
 			width: 18em;
 			background: #fff;
 			text-align: center;
