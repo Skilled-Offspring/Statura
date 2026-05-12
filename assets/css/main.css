@@ -2640,7 +2640,9 @@ input, select, textarea {
 		}
 
 		.carousel article {
-			display: inline-block;
+			display: flex;
+			flex-direction: column;
+			height: 100%;
 			width: 18em;
 			background: #fff;
 			text-align: center;
@@ -2669,6 +2671,7 @@ input, select, textarea {
 
 			.carousel article p {
 				text-align: center;
+				flex-grow: 1;
 			}
 
 /* Wide */
