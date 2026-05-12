@@ -3228,6 +3228,8 @@ input, select, textarea {
 		/* === CTA Button (Game Style) === */
 			.cta-button {
 			    display: inline-block;
+				width: 100%;
+				text-align: center;
 			    margin-top: 25px;
     			padding: 14px 32px;
     			font-size: 1.1em;
