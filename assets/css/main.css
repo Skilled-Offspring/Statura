@@ -2261,8 +2261,9 @@ input, select, textarea {
 		}
 
 	body.homepage #header {
-		height: 75vh;
-		min-height: 35em;
+		height: auto !important;
+		min-height: 45em !important;
+		padding: 4em !important;
 	}
 
 		body.homepage #header h1 {
