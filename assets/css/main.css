@@ -3386,18 +3386,20 @@ input, select, textarea {
 	justify-content: center;
 	align-items: center;
 	gap: 0.5em;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;   /* keep them on one line */
 	margin-top: 0.5em;
 }
 
 .hero-buttons .button {
-	margin: 0;
+	display: inline-block !important;
+	width: auto !important;
+	max-width: none !important;
+	min-width: 90px;
+	margin: 0 !important;
 	padding: 0.5em 0.9em;
 	font-size: 0.85em;
-	min-width: 90px;
 	line-height: 1;
 }
-
 .shop-item {
 	margin-top: 2em;
 	padding-top: 1.5em;
