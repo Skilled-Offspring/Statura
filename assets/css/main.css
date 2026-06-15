@@ -3462,3 +3462,7 @@ body.shop-page::before {
     z-index: -1;
     pointer-events: none;
 }
+
+body.shop-page .wrapper {
+	background: transparent !important;
+}
