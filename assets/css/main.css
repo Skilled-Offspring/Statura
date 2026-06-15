@@ -3327,3 +3327,28 @@ input, select, textarea {
 			width: 100%;
 			max-width: 240px;
 		}
+
+		.shop-item {
+	margin: 2em 0;
+	padding-top: 1.5em;
+	border-top: solid 1px rgba(0, 0, 0, 0.1);
+}
+
+.shop-item:first-of-type {
+	border-top: none;
+	padding-top: 0;
+}
+
+.shop-item h4 {
+	margin-bottom: 0.5em;
+}
+
+.shop-item p {
+	margin-bottom: 1em;
+	font-size: 0.95em;
+}
+
+.shop-item .button {
+	width: 100%;
+	max-width: 260px;
+}
