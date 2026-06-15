@@ -3293,50 +3293,60 @@ input, select, textarea {
 			    margin-bottom: 10px;
 			}
 
-			/* === Shop grid === */
-			.shop-grid {
-				margin-top: 2em;
-			}
+/* ==========================================
+   SHOP LAYOUT
+========================================== */
 
-		.shop-card {
-			background: #ffffff;
-			border-radius: 14px;
-			padding: 2em;
-			margin-bottom: 2em;
-			box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
-			text-align: center;
-		}
+.shop-grid {
+	margin-top: 2em;
+}
 
-		.shop-card h3 {
-			margin-bottom: 0.5em;
-		}
+.shop-card {
+	background: #ffffff;
+	border-radius: 14px;
+	padding: 2em;
+	margin-bottom: 2em;
+	box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+	text-align: center;
+}
 
-		.shop-card ul {
-			list-style: none;
-			padding-left: 0;
-			margin: 1.5em 0;
-		}
+.shop-card h3 {
+	margin-bottom: 0.5em;
+}
 
-		.shop-card li {
-			margin: 0.75em 0;
-		}
+.shop-card ul {
+	list-style: none;
+	padding-left: 0;
+	margin: 1.5em 0;
+}
 
-		.shop-card .button {
-			display: block;
-			margin: 0.75em auto;
-			width: 100%;
-			max-width: 240px;
-		}
+.shop-card li {
+	margin: 0.75em 0;
+}
 
-		.shop-item {
-	margin: 2em 0;
+.shop-card .button {
+	display: block;
+	width: 100%;
+	max-width: 240px;
+	margin: 0.75em auto;
+}
+
+
+/* ==========================================
+   SHOP ITEMS
+========================================== */
+
+.shop-item {
+	margin-top: 2em;
 	padding-top: 1.5em;
 	border-top: solid 1px rgba(0, 0, 0, 0.1);
+	text-align: center;
 }
 
 .shop-item:first-of-type {
-	border-top: none;
+	margin-top: 0;
 	padding-top: 0;
+	border-top: none;
 }
 
 .shop-item h4 {
@@ -3352,6 +3362,11 @@ input, select, textarea {
 	width: 100%;
 	max-width: 260px;
 }
+
+
+/* ==========================================
+   HERO SECTION
+========================================== */
 
 .hero-shop-grid {
 	display: grid;
@@ -3377,16 +3392,21 @@ input, select, textarea {
 }
 
 .hero-image-link {
-	border-bottom: none;
 	display: inline-block;
+	border-bottom: none;
 }
+
+
+/* ==========================================
+   HERO BUTTONS
+========================================== */
 
 .hero-buttons {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	gap: 0.5em;
-	flex-wrap: nowrap;   /* keep them on one line */
+	flex-wrap: nowrap;
 	margin-top: 0.5em;
 }
 
@@ -3400,22 +3420,17 @@ input, select, textarea {
 	font-size: 0.85em;
 	line-height: 1;
 }
-.shop-item {
-	margin-top: 2em;
-	padding-top: 1.5em;
-	border-top: solid 1px rgba(0, 0, 0, 0.1);
-	text-align: center;
-}
 
-.shop-card {
-	text-align: center;
-}
 
-.mission-card {
-	text-align: center;
-}
+/* ==========================================
+   MISSION BOOKS COLUMN
+========================================== */
 
-.mission-card .shop-item {
+.mission-card,
+.mission-card .shop-item,
+.mission-card h3,
+.mission-card h4,
+.mission-card p {
 	text-align: center;
 }
 
