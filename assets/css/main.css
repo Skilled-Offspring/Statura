@@ -2641,28 +2641,26 @@ input, select, textarea {
 			}
 
 		.carousel .reel {
-			white-space: nowrap;
-			position: relative;
-			-webkit-overflow-scrolling: touch;
-			padding: 0 2em 0 2em;
+		    display: flex;
+		    justify-content: center;
+		    flex-wrap: wrap;
+		    gap: 2em;
+		    position: relative;
+		    padding: 0 2em;
 		}
 
 		.carousel article {
-			display: inline-flex;
-			flex-direction: column;
-			vertical-align: top;
-			min-height: 34em;
-			width: 18em;
-			background: #fff;
-			text-align: center;
-			padding: 0 1em 3em 1em;
-			margin: 0 2em 0 0;
-			white-space: normal;
-			opacity: 1.0;
-			-moz-transition: opacity 0.75s ease-in-out;
-			-webkit-transition: opacity 0.75s ease-in-out;
-			-ms-transition: opacity 0.75s ease-in-out;
-			transition: opacity 0.75s ease-in-out;
+		    display: flex;
+		    flex-direction: column;
+		    min-height: 34em;
+		    width: 18em;
+		    background: #fff;
+		    text-align: center;
+		    padding: 0 1em 3em;
+		    white-space: normal;
+		    opacity: 1;
+		    margin: 0;
+		    transition: opacity 0.75s ease-in-out;
 		}
 
 			.carousel article.loading {
