@@ -3302,12 +3302,18 @@ input, select, textarea {
 }
 
 .shop-card {
-	background: #ffffff;
-	border-radius: 14px;
-	padding: 2em;
-	margin-bottom: 2em;
-	box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
-	text-align: center;
+    background: rgba(255, 255, 255, 0.88);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+
+    border-radius: 14px;
+    padding: 2em;
+    margin-bottom: 2em;
+
+    box-shadow:
+        0 4px 18px rgba(0, 0, 0, 0.08);
+
+    position: relative;
 }
 
 .shop-card h3 {
