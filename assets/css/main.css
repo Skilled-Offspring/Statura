@@ -3360,32 +3360,47 @@ input, select, textarea {
 	margin-top: 2em;
 }
 
+.hero-product {
+	text-align: center;
+}
+
 .hero-product img {
 	width: 100%;
-	max-width: 220px;
+	max-width: 180px;
+	height: auto;
 	border-radius: 10px;
-	margin-bottom: 1em;
+	margin-bottom: 0.75em;
 }
 
 .hero-product h4 {
-	margin-bottom: 0.75em;
+	margin-bottom: 0.5em;
+}
+
+.hero-image-link {
+	border-bottom: none;
+	display: inline-block;
 }
 
 .hero-buttons {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	gap: 0.5em;
-	margin-top: 0.75em;
 	flex-wrap: wrap;
+	margin-top: 0.5em;
 }
 
 .hero-buttons .button {
 	margin: 0;
-	padding: 0.6em 1em;
+	padding: 0.5em 0.9em;
 	font-size: 0.85em;
 	min-width: 90px;
+	line-height: 1;
 }
 
-.hero-image-link {
-	border-bottom: none;
+.shop-item {
+	margin-top: 2em;
+	padding-top: 1.5em;
+	border-top: solid 1px rgba(0, 0, 0, 0.1);
+	text-align: center;
 }
