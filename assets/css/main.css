@@ -3371,11 +3371,19 @@ input, select, textarea {
 	margin-bottom: 0.75em;
 }
 
-.hero-product .button {
-	display: block;
-	margin: 0.5em auto;
-	max-width: 220px;
-	width: 100%;
+.hero-buttons {
+	display: flex;
+	justify-content: center;
+	gap: 0.5em;
+	margin-top: 0.75em;
+	flex-wrap: wrap;
+}
+
+.hero-buttons .button {
+	margin: 0;
+	padding: 0.6em 1em;
+	font-size: 0.85em;
+	min-width: 90px;
 }
 
 .hero-image-link {
