@@ -3352,3 +3352,32 @@ input, select, textarea {
 	width: 100%;
 	max-width: 260px;
 }
+
+.hero-shop-grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 2em;
+	margin-top: 2em;
+}
+
+.hero-product img {
+	width: 100%;
+	max-width: 220px;
+	border-radius: 10px;
+	margin-bottom: 1em;
+}
+
+.hero-product h4 {
+	margin-bottom: 0.75em;
+}
+
+.hero-product .button {
+	display: block;
+	margin: 0.5em auto;
+	max-width: 220px;
+	width: 100%;
+}
+
+.hero-image-link {
+	border-bottom: none;
+}
