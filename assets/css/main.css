@@ -3439,3 +3439,53 @@ input, select, textarea {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+/* =========================
+   STATURE SHOP BACKGROUND
+   ========================= */
+
+body.shop-page {
+    position: relative;
+    background-color: #f7f4ee;
+}
+
+/* Guild Hall background image */
+body.shop-page::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+
+    background-image: url("images/shopbackground.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    opacity: 0.08;   /* 8% opacity */
+    z-index: -2;
+    pointer-events: none;
+}
+
+/* Light overlay to keep products readable */
+body.shop-page::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+
+    background: rgba(255, 255, 255, 0.72);
+
+    z-index: -1;
+    pointer-events: none;
+}
+
+/* Make product cards stand out */
+.shop-card {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(2px);
+
+    border-radius: 14px;
+
+    box-shadow:
+        0 4px 18px rgba(0, 0, 0, 0.08);
+
+    position: relative;
+}
