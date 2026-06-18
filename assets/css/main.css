@@ -3472,3 +3472,22 @@ body.shop-page::before {
 body.shop-page .wrapper {
 	background: transparent !important;
 }
+
+.shop-image-link {
+	display: inline-block;
+	border-bottom: none;
+}
+
+.shop-item img {
+	width: 100%;
+	max-width: 220px;
+	height: auto;
+	border-radius: 10px;
+	margin-bottom: 1em;
+	transition: transform 0.2s ease;
+	cursor: pointer;
+}
+
+.shop-item img:hover {
+	transform: scale(1.03);
+}
