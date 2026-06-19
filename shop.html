@@ -76,7 +76,8 @@
 </div>
 
 	<div class="shop-item">
-		<h4>Level 1–2 PDF Book</h4>
+		<h4>Statura My Hero Training Journal:</h4>
+		<p>Levels 1 and 2 of the Nervous System, Muscle System, Liver, Heart, and Lungs</p>
 		<p>Instant digital download.</p>
 		<a href="#" class="button">Buy PDF Book — $10</a>
 	</div>
@@ -156,19 +157,24 @@
 
 	</div>
 
-	<div class="shop-item">
-		<h4>Best Value</h4>
-			<a href="#" class="shop-image-link">
-		<img src="images/heroset.png" alt="Complete Hero Set">
-	</a>
+.shop-item img {
+	width: 100%;
+	max-width: 220px;
+	height: auto;
+	border-radius: 10px;
+	margin-bottom: 1em;
+	transition: transform 0.2s ease;
+	cursor: pointer;
+}
 
-	<p>Get all five heroes and start your adventure with the complete team.</p>
+.shop-item img:hover {
+	transform: scale(1.03);
+}
 
-		<div class="hero-buttons">
-			<a href="#" class="button primary">All 5 PDFs $8</a>
-			<a href="#" class="button primary">All 5 Cards $20</a>
-		</div>
-	</div>
+/* Hero Set Image */
+.shop-item img[alt="Complete Hero Set"] {
+	max-width: 380px;
+}
 </section>
 
 				<!-- Bosses -->
@@ -178,6 +184,7 @@
 
 					<ul>
 						<li>Individual Boss PDFs</li>
+						<li>Boss Familys</li>
 						<li>The Big Bad Book of Bosses</li>
 						<li>More ways to battle with your heroes</li>
 					</ul>
