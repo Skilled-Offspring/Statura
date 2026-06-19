@@ -3469,10 +3469,12 @@ body.shop-page::before {
     pointer-events: none;
 }
 
+/* Make shop background transparent */
 body.shop-page .wrapper {
 	background: transparent !important;
 }
 
+/* Shop Images */
 .shop-image-link {
 	display: inline-block;
 	border-bottom: none;
@@ -3492,39 +3494,18 @@ body.shop-page .wrapper {
 	transform: scale(1.03);
 }
 
-.shop-item img {
-	width: 100%;
-	max-width: 220px;
-	height: auto;
-	border-radius: 10px;
-	margin-bottom: 1em;
-	transition: transform 0.2s ease;
-	cursor: pointer;
-}
-
-.shop-item img:hover {
-	transform: scale(1.03);
-}
-
 /* Hero Set Image */
 .shop-item img[alt="Complete Hero Set"] {
 	max-width: 380px;
 }
-.shop-item img {
-	width: 100%;
-	max-width: 220px;
-	height: auto;
-	border-radius: 10px;
-	margin-bottom: 1em;
-	transition: transform 0.2s ease;
-	cursor: pointer;
+
+/* Best Value Badge */
+.shop-item img[alt="Best Value Badge"] {
+	max-width: 170px;
+	margin-bottom: 0.5em;
+	cursor: default;
 }
 
-.shop-item img:hover {
-	transform: scale(1.03);
-}
-
-/* Hero Set Image */
-.shop-item img[alt="Complete Hero Set"] {
-	max-width: 380px;
+.shop-item img[alt="Best Value Badge"]:hover {
+	transform: none;
 }
