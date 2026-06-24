@@ -3549,55 +3549,64 @@ body.shop-page .wrapper {
 	transform: none;
 }
 
-/* Force homepage hero header to center on mobile */
+/* ---------- Mobile homepage centering fix ---------- */
 @media screen and (max-width: 736px) {
 
 	body.homepage #header,
 	body.homepage #header .inner,
-	body.homepage #header header {
+	body.homepage #header header,
+	body.homepage #header footer {
 		width: 100% !important;
 		max-width: 100% !important;
-		margin-left: 0 !important;
-		margin-right: 0 !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
 		padding-left: 0 !important;
 		padding-right: 0 !important;
 		left: 0 !important;
 		right: 0 !important;
 		text-align: center !important;
 		transform: none !important;
+		box-sizing: border-box !important;
 	}
 
-	body.homepage #header h1,
-	body.homepage #header #logo {
-		width: 100% !important;
-		margin: 0 auto !important;
-		text-align: center !important;
-		display: block !important;
-	}
-
-	body.homepage #header #logo img {
-		display: block !important;
-		margin: 0 auto !important;
-		width: 300px !important;
-		max-width: 80vw !important;
-		height: auto !important;
-	}
-
-	body.homepage #header .benefits {
+	body.homepage #header .benefits,
+	body.homepage #header .benefit {
 		width: 100% !important;
 		max-width: 100% !important;
 		margin-left: auto !important;
 		margin-right: auto !important;
-		padding-left: 0 !important;
-		padding-right: 0 !important;
 		text-align: center !important;
 	}
 
-	body.homepage #header .benefit {
+	body.homepage #header .badge-button {
+		display: block !important;
 		width: 100% !important;
+		max-width: 100% !important;
+		margin: 2em auto 0 auto !important;
+		text-align: center !important;
+		border: 0 !important;
+	}
+
+	body.homepage #header .badge-button img {
+		display: block !important;
+		width: 82vw !important;
+		max-width: 420px !important;
+		height: auto !important;
 		margin-left: auto !important;
 		margin-right: auto !important;
-		text-align: center !important;
+		position: relative !important;
+		left: 50% !important;
+		transform: translateX(-50%) !important;
 	}
+
+	body.homepage #header #logo img {
+		display: block !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+		width: 300px !important;
+		max-width: 80vw !important;
+		height: auto !important;
+	}
+}
 
 }
