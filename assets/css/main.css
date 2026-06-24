@@ -3206,6 +3206,45 @@ input, select, textarea {
 						margin-bottom: 2em;
 					}
 
+					/* ---------- Center homepage header on mobile ---------- */
+
+body.homepage #header .inner {
+	padding-left: 0;
+	padding-right: 0;
+	text-align: center;
+}
+
+body.homepage #header header {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+body.homepage #header h1 {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+body.homepage #header h1 #logo {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+body.homepage #header h1 #logo img {
+	display: block;
+	margin: 0 auto;
+	width: 340px;
+	max-width: 75vw;
+}
+
+body.homepage #header .hero-sub,
+body.homepage #header h2,
+body.homepage #header p {
+	text-align: center;
+}
+
 	}
 
 		/* === Badge Button === */
